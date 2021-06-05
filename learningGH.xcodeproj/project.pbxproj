@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF01C3BF266C137700201649 /* learningGHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C3BE266C137700201649 /* learningGHApp.swift */; };
+		EF01C3C1266C137700201649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C3C0266C137700201649 /* ContentView.swift */; };
+		EF01C3C3266C137E00201649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF01C3C2266C137E00201649 /* Assets.xcassets */; };
+		EF01C3C6266C137E00201649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF01C3C5266C137E00201649 /* Preview Assets.xcassets */; };
+		EF01C3D1266C137E00201649 /* learningGHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C3D0266C137E00201649 /* learningGHTests.swift */; };
+		EF01C3DC266C137E00201649 /* learningGHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C3DB266C137E00201649 /* learningGHUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF01C3CD266C137E00201649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF01C3B3266C137700201649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF01C3BA266C137700201649;
+			remoteInfo = learningGH;
+		};
+		EF01C3D8266C137E00201649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF01C3B3266C137700201649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF01C3BA266C137700201649;
+			remoteInfo = learningGH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF01C3BB266C137700201649 /* learningGH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningGH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF01C3BE266C137700201649 /* learningGHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningGHApp.swift; sourceTree = "<group>"; };
+		EF01C3C0266C137700201649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF01C3C2266C137E00201649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF01C3C5266C137E00201649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF01C3C7266C137E00201649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF01C3CC266C137E00201649 /* learningGHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learningGHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF01C3D0266C137E00201649 /* learningGHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningGHTests.swift; sourceTree = "<group>"; };
+		EF01C3D2266C137E00201649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF01C3D7266C137E00201649 /* learningGHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learningGHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF01C3DB266C137E00201649 /* learningGHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningGHUITests.swift; sourceTree = "<group>"; };
+		EF01C3DD266C137E00201649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF01C3B8266C137700201649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF01C3C9266C137E00201649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF01C3D4266C137E00201649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF01C3B2266C137700201649 = {
+			isa = PBXGroup;
+			children = (
+				EF01C3BD266C137700201649 /* learningGH */,
+				EF01C3CF266C137E00201649 /* learningGHTests */,
+				EF01C3DA266C137E00201649 /* learningGHUITests */,
+				EF01C3BC266C137700201649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF01C3BC266C137700201649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF01C3BB266C137700201649 /* learningGH.app */,
+				EF01C3CC266C137E00201649 /* learningGHTests.xctest */,
+				EF01C3D7266C137E00201649 /* learningGHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF01C3BD266C137700201649 /* learningGH */ = {
+			isa = PBXGroup;
+			children = (
+				EF01C3BE266C137700201649 /* learningGHApp.swift */,
+				EF01C3C0266C137700201649 /* ContentView.swift */,
+				EF01C3C2266C137E00201649 /* Assets.xcassets */,
+				EF01C3C7266C137E00201649 /* Info.plist */,
+				EF01C3C4266C137E00201649 /* Preview Content */,
+			);
+			path = learningGH;
+			sourceTree = "<group>";
+		};
+		EF01C3C4266C137E00201649 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF01C3C5266C137E00201649 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF01C3CF266C137E00201649 /* learningGHTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF01C3D0266C137E00201649 /* learningGHTests.swift */,
+				EF01C3D2266C137E00201649 /* Info.plist */,
+			);
+			path = learningGHTests;
+			sourceTree = "<group>";
+		};
+		EF01C3DA266C137E00201649 /* learningGHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF01C3DB266C137E00201649 /* learningGHUITests.swift */,
+				EF01C3DD266C137E00201649 /* Info.plist */,
+			);
+			path = learningGHUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF01C3BA266C137700201649 /* learningGH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF01C3E0266C137E00201649 /* Build configuration list for PBXNativeTarget "learningGH" */;
+			buildPhases = (
+				EF01C3B7266C137700201649 /* Sources */,
+				EF01C3B8266C137700201649 /* Frameworks */,
+				EF01C3B9266C137700201649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learningGH;
+			productName = learningGH;
+			productReference = EF01C3BB266C137700201649 /* learningGH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF01C3CB266C137E00201649 /* learningGHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF01C3E3266C137E00201649 /* Build configuration list for PBXNativeTarget "learningGHTests" */;
+			buildPhases = (
+				EF01C3C8266C137E00201649 /* Sources */,
+				EF01C3C9266C137E00201649 /* Frameworks */,
+				EF01C3CA266C137E00201649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF01C3CE266C137E00201649 /* PBXTargetDependency */,
+			);
+			name = learningGHTests;
+			productName = learningGHTests;
+			productReference = EF01C3CC266C137E00201649 /* learningGHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF01C3D6266C137E00201649 /* learningGHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF01C3E6266C137E00201649 /* Build configuration list for PBXNativeTarget "learningGHUITests" */;
+			buildPhases = (
+				EF01C3D3266C137E00201649 /* Sources */,
+				EF01C3D4266C137E00201649 /* Frameworks */,
+				EF01C3D5266C137E00201649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF01C3D9266C137E00201649 /* PBXTargetDependency */,
+			);
+			name = learningGHUITests;
+			productName = learningGHUITests;
+			productReference = EF01C3D7266C137E00201649 /* learningGHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF01C3B3266C137700201649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EF01C3BA266C137700201649 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EF01C3CB266C137E00201649 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EF01C3BA266C137700201649;
+					};
+					EF01C3D6266C137E00201649 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EF01C3BA266C137700201649;
+					};
+				};
+			};
+			buildConfigurationList = EF01C3B6266C137700201649 /* Build configuration list for PBXProject "learningGH" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF01C3B2266C137700201649;
+			productRefGroup = EF01C3BC266C137700201649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF01C3BA266C137700201649 /* learningGH */,
+				EF01C3CB266C137E00201649 /* learningGHTests */,
+				EF01C3D6266C137E00201649 /* learningGHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF01C3B9266C137700201649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF01C3C6266C137E00201649 /* Preview Assets.xcassets in Resources */,
+				EF01C3C3266C137E00201649 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF01C3CA266C137E00201649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF01C3D5266C137E00201649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF01C3B7266C137700201649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF01C3C1266C137700201649 /* ContentView.swift in Sources */,
+				EF01C3BF266C137700201649 /* learningGHApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF01C3C8266C137E00201649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF01C3D1266C137E00201649 /* learningGHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF01C3D3266C137E00201649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF01C3DC266C137E00201649 /* learningGHUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF01C3CE266C137E00201649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF01C3BA266C137700201649 /* learningGH */;
+			targetProxy = EF01C3CD266C137E00201649 /* PBXContainerItemProxy */;
+		};
+		EF01C3D9266C137E00201649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF01C3BA266C137700201649 /* learningGH */;
+			targetProxy = EF01C3D8266C137E00201649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF01C3DE266C137E00201649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF01C3DF266C137E00201649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF01C3E1266C137E00201649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"learningGH/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = learningGH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrfan.learningGH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF01C3E2266C137E00201649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"learningGH/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = learningGH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrfan.learningGH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF01C3E4266C137E00201649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learningGHTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrfan.learningGHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learningGH.app/learningGH";
+			};
+			name = Debug;
+		};
+		EF01C3E5266C137E00201649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learningGHTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrfan.learningGHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learningGH.app/learningGH";
+			};
+			name = Release;
+		};
+		EF01C3E7266C137E00201649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learningGHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrfan.learningGHUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = learningGH;
+			};
+			name = Debug;
+		};
+		EF01C3E8266C137E00201649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learningGHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrfan.learningGHUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = learningGH;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF01C3B6266C137700201649 /* Build configuration list for PBXProject "learningGH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF01C3DE266C137E00201649 /* Debug */,
+				EF01C3DF266C137E00201649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF01C3E0266C137E00201649 /* Build configuration list for PBXNativeTarget "learningGH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF01C3E1266C137E00201649 /* Debug */,
+				EF01C3E2266C137E00201649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF01C3E3266C137E00201649 /* Build configuration list for PBXNativeTarget "learningGHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF01C3E4266C137E00201649 /* Debug */,
+				EF01C3E5266C137E00201649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF01C3E6266C137E00201649 /* Build configuration list for PBXNativeTarget "learningGHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF01C3E7266C137E00201649 /* Debug */,
+				EF01C3E8266C137E00201649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF01C3B3266C137700201649 /* Project object */;
+}
